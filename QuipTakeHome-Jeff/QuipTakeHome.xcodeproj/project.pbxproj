@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FAAD037279631BC00CBEC01 /* QuipTakeHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD036279631BC00CBEC01 /* QuipTakeHomeApp.swift */; };
+		1FAAD03B279631C100CBEC01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAAD03A279631C100CBEC01 /* Assets.xcassets */; };
+		1FAAD03E279631C100CBEC01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAAD03D279631C100CBEC01 /* Preview Assets.xcassets */; };
+		1FAAD052279631C100CBEC01 /* QuipTakeHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD051279631C100CBEC01 /* QuipTakeHomeUITests.swift */; };
+		1FAAD054279631C100CBEC01 /* QuipTakeHomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD053279631C100CBEC01 /* QuipTakeHomeUITestsLaunchTests.swift */; };
+		1FAAD0662796339400CBEC01 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0652796339400CBEC01 /* BaseViewModel.swift */; };
+		1FAAD068279633B400CBEC01 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD067279633B400CBEC01 /* HomeViewModel.swift */; };
+		1FAAD06A279633D200CBEC01 /* DayImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD069279633D200CBEC01 /* DayImagesViewModel.swift */; };
+		1FAAD06C279633ED00CBEC01 /* ImageDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD06B279633ED00CBEC01 /* ImageDetailsViewModel.swift */; };
+		1FAAD06E2796346E00CBEC01 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD06D2796346E00CBEC01 /* HomeView.swift */; };
+		1FAAD0702796348B00CBEC01 /* DayImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD06F2796348B00CBEC01 /* DayImagesView.swift */; };
+		1FAAD0722796349E00CBEC01 /* ImageDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0712796349E00CBEC01 /* ImageDetailsView.swift */; };
+		1FAAD0742796365500CBEC01 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0732796365500CBEC01 /* HomeViewModelTests.swift */; };
+		1FAAD0772796371900CBEC01 /* DayImagesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0762796371900CBEC01 /* DayImagesViewModelTests.swift */; };
+		1FAAD0792796374F00CBEC01 /* ImageDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0782796374F00CBEC01 /* ImageDetailsViewModelTests.swift */; };
+		1FAAD07E279638B300CBEC01 /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD07D279638B300CBEC01 /* TextButton.swift */; };
+		1FAAD08127963C3E00CBEC01 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD08027963C3E00CBEC01 /* Colors.swift */; };
+		1FAAD08327963EB600CBEC01 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD08227963EB600CBEC01 /* Constants.swift */; };
+		1FAAD08527964F5A00CBEC01 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD08427964F5A00CBEC01 /* View+Extensions.swift */; };
+		1FAAD0882796548900CBEC01 /* MarsRoverImagesNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0872796548900CBEC01 /* MarsRoverImagesNetwork.swift */; };
+		1FAAD08A279656C400CBEC01 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD089279656C400CBEC01 /* APIClient.swift */; };
+		1FAAD08D279658E400CBEC01 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD08C279658E400CBEC01 /* Photo.swift */; };
+		1FAAD08F2796631000CBEC01 /* Binding+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD08E2796631000CBEC01 /* Binding+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FAAD044279631C100CBEC01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FAAD02B279631BC00CBEC01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FAAD032279631BC00CBEC01;
+			remoteInfo = "QuipTakeHome-Jeff";
+		};
+		1FAAD04E279631C100CBEC01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FAAD02B279631BC00CBEC01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FAAD032279631BC00CBEC01;
+			remoteInfo = "QuipTakeHome-Jeff";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FAAD033279631BC00CBEC01 /* QuipTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuipTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAAD036279631BC00CBEC01 /* QuipTakeHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuipTakeHomeApp.swift; sourceTree = "<group>"; };
+		1FAAD03A279631C100CBEC01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FAAD03D279631C100CBEC01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FAAD043279631C100CBEC01 /* QuipTakeHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuipTakeHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAAD04D279631C100CBEC01 /* QuipTakeHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuipTakeHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAAD051279631C100CBEC01 /* QuipTakeHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuipTakeHomeUITests.swift; sourceTree = "<group>"; };
+		1FAAD053279631C100CBEC01 /* QuipTakeHomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuipTakeHomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1FAAD0652796339400CBEC01 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		1FAAD067279633B400CBEC01 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1FAAD069279633D200CBEC01 /* DayImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayImagesViewModel.swift; sourceTree = "<group>"; };
+		1FAAD06B279633ED00CBEC01 /* ImageDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailsViewModel.swift; sourceTree = "<group>"; };
+		1FAAD06D2796346E00CBEC01 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1FAAD06F2796348B00CBEC01 /* DayImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayImagesView.swift; sourceTree = "<group>"; };
+		1FAAD0712796349E00CBEC01 /* ImageDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailsView.swift; sourceTree = "<group>"; };
+		1FAAD0732796365500CBEC01 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		1FAAD0762796371900CBEC01 /* DayImagesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayImagesViewModelTests.swift; sourceTree = "<group>"; };
+		1FAAD0782796374F00CBEC01 /* ImageDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailsViewModelTests.swift; sourceTree = "<group>"; };
+		1FAAD07D279638B300CBEC01 /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		1FAAD08027963C3E00CBEC01 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		1FAAD08227963EB600CBEC01 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1FAAD08427964F5A00CBEC01 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		1FAAD0872796548900CBEC01 /* MarsRoverImagesNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverImagesNetwork.swift; sourceTree = "<group>"; };
+		1FAAD089279656C400CBEC01 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		1FAAD08C279658E400CBEC01 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		1FAAD08E2796631000CBEC01 /* Binding+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FAAD030279631BC00CBEC01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAAD040279631C100CBEC01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAAD04A279631C100CBEC01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FAAD02A279631BC00CBEC01 = {
+			isa = PBXGroup;
+			children = (
+				1FAAD035279631BC00CBEC01 /* QuipTakeHome */,
+				1FAAD046279631C100CBEC01 /* QuipTakeHomeTests */,
+				1FAAD050279631C100CBEC01 /* QuipTakeHomeUITests */,
+				1FAAD034279631BC00CBEC01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FAAD034279631BC00CBEC01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FAAD033279631BC00CBEC01 /* QuipTakeHome.app */,
+				1FAAD043279631C100CBEC01 /* QuipTakeHomeTests.xctest */,
+				1FAAD04D279631C100CBEC01 /* QuipTakeHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FAAD035279631BC00CBEC01 /* QuipTakeHome */ = {
+			isa = PBXGroup;
+			children = (
+				1FAAD08B279658D200CBEC01 /* Models */,
+				1FAAD07F27963C2800CBEC01 /* SupportingFiles */,
+				1FAAD0642796337300CBEC01 /* BaseClasses */,
+				1FAAD07A2796387A00CBEC01 /* Components */,
+				1FAAD0862796546900CBEC01 /* Networking */,
+				1FAAD0602796330400CBEC01 /* Screens */,
+				1FAAD036279631BC00CBEC01 /* QuipTakeHomeApp.swift */,
+				1FAAD03A279631C100CBEC01 /* Assets.xcassets */,
+				1FAAD03C279631C100CBEC01 /* Preview Content */,
+			);
+			path = QuipTakeHome;
+			sourceTree = "<group>";
+		};
+		1FAAD03C279631C100CBEC01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1FAAD03D279631C100CBEC01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FAAD046279631C100CBEC01 /* QuipTakeHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FAAD075279636DD00CBEC01 /* Screens */,
+			);
+			path = QuipTakeHomeTests;
+			sourceTree = "<group>";
+		};
+		1FAAD050279631C100CBEC01 /* QuipTakeHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FAAD051279631C100CBEC01 /* QuipTakeHomeUITests.swift */,
+				1FAAD053279631C100CBEC01 /* QuipTakeHomeUITestsLaunchTests.swift */,
+			);
+			path = QuipTakeHomeUITests;
+			sourceTree = "<group>";
+		};
+		1FAAD0602796330400CBEC01 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1FAAD0632796336800CBEC01 /* ImageDetails */,
+				1FAAD0622796335900CBEC01 /* DayImages */,
+				1FAAD0612796331900CBEC01 /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1FAAD0612796331900CBEC01 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1FAAD067279633B400CBEC01 /* HomeViewModel.swift */,
+				1FAAD06D2796346E00CBEC01 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1FAAD0622796335900CBEC01 /* DayImages */ = {
+			isa = PBXGroup;
+			children = (
+				1FAAD069279633D200CBEC01 /* DayImagesViewModel.swift */,
+				1FAAD06F2796348B00CBEC01 /* DayImagesView.swift */,
+			);
+			path = DayImages;
+			sourceTree = "<group>";
+		};
+		1FAAD0632796336800CBEC01 /* ImageDetails */ = {
+			isa = PBXGroup;
+			children = (
+				1FAAD06B279633ED00CBEC01 /* ImageDetailsViewModel.swift */,
+				1FAAD0712796349E00CBEC01 /* ImageDetailsView.swift */,
+			);
+			path = ImageDetails;
+			sourceTree = "<group>";
+		};
+		1FAAD0642796337300CBEC01 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1FAAD0652796339400CBEC01 /* BaseViewModel.swift */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		1FAAD075279636DD00CBEC01 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1FAAD0732796365500CBEC01 /* HomeViewModelTests.swift */,
+				1FAAD0762796371900CBEC01 /* DayImagesViewModelTests.swift */,
+				1FAAD0782796374F00CBEC01 /* ImageDetailsViewModelTests.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1FAAD07A2796387A00CBEC01 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1FAAD07D279638B300CBEC01 /* TextButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1FAAD07F27963C2800CBEC01 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1FAAD08027963C3E00CBEC01 /* Colors.swift */,
+				1FAAD08227963EB600CBEC01 /* Constants.swift */,
+				1FAAD08427964F5A00CBEC01 /* View+Extensions.swift */,
+				1FAAD08E2796631000CBEC01 /* Binding+Extensions.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		1FAAD0862796546900CBEC01 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1FAAD0872796548900CBEC01 /* MarsRoverImagesNetwork.swift */,
+				1FAAD089279656C400CBEC01 /* APIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1FAAD08B279658D200CBEC01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1FAAD08C279658E400CBEC01 /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FAAD032279631BC00CBEC01 /* QuipTakeHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAAD057279631C100CBEC01 /* Build configuration list for PBXNativeTarget "QuipTakeHome" */;
+			buildPhases = (
+				1FAAD02F279631BC00CBEC01 /* Sources */,
+				1FAAD030279631BC00CBEC01 /* Frameworks */,
+				1FAAD031279631BC00CBEC01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuipTakeHome;
+			productName = "QuipTakeHome-Jeff";
+			productReference = 1FAAD033279631BC00CBEC01 /* QuipTakeHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FAAD042279631C100CBEC01 /* QuipTakeHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAAD05A279631C100CBEC01 /* Build configuration list for PBXNativeTarget "QuipTakeHomeTests" */;
+			buildPhases = (
+				1FAAD03F279631C100CBEC01 /* Sources */,
+				1FAAD040279631C100CBEC01 /* Frameworks */,
+				1FAAD041279631C100CBEC01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FAAD045279631C100CBEC01 /* PBXTargetDependency */,
+			);
+			name = QuipTakeHomeTests;
+			productName = "QuipTakeHome-JeffTests";
+			productReference = 1FAAD043279631C100CBEC01 /* QuipTakeHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FAAD04C279631C100CBEC01 /* QuipTakeHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAAD05D279631C100CBEC01 /* Build configuration list for PBXNativeTarget "QuipTakeHomeUITests" */;
+			buildPhases = (
+				1FAAD049279631C100CBEC01 /* Sources */,
+				1FAAD04A279631C100CBEC01 /* Frameworks */,
+				1FAAD04B279631C100CBEC01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FAAD04F279631C100CBEC01 /* PBXTargetDependency */,
+			);
+			name = QuipTakeHomeUITests;
+			productName = "QuipTakeHome-JeffUITests";
+			productReference = 1FAAD04D279631C100CBEC01 /* QuipTakeHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FAAD02B279631BC00CBEC01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1FAAD032279631BC00CBEC01 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					1FAAD042279631C100CBEC01 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1FAAD032279631BC00CBEC01;
+					};
+					1FAAD04C279631C100CBEC01 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1FAAD032279631BC00CBEC01;
+					};
+				};
+			};
+			buildConfigurationList = 1FAAD02E279631BC00CBEC01 /* Build configuration list for PBXProject "QuipTakeHome" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FAAD02A279631BC00CBEC01;
+			productRefGroup = 1FAAD034279631BC00CBEC01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FAAD032279631BC00CBEC01 /* QuipTakeHome */,
+				1FAAD042279631C100CBEC01 /* QuipTakeHomeTests */,
+				1FAAD04C279631C100CBEC01 /* QuipTakeHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FAAD031279631BC00CBEC01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAAD03E279631C100CBEC01 /* Preview Assets.xcassets in Resources */,
+				1FAAD03B279631C100CBEC01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAAD041279631C100CBEC01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAAD04B279631C100CBEC01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FAAD02F279631BC00CBEC01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAAD06E2796346E00CBEC01 /* HomeView.swift in Sources */,
+				1FAAD08A279656C400CBEC01 /* APIClient.swift in Sources */,
+				1FAAD08327963EB600CBEC01 /* Constants.swift in Sources */,
+				1FAAD08127963C3E00CBEC01 /* Colors.swift in Sources */,
+				1FAAD06C279633ED00CBEC01 /* ImageDetailsViewModel.swift in Sources */,
+				1FAAD037279631BC00CBEC01 /* QuipTakeHomeApp.swift in Sources */,
+				1FAAD06A279633D200CBEC01 /* DayImagesViewModel.swift in Sources */,
+				1FAAD0702796348B00CBEC01 /* DayImagesView.swift in Sources */,
+				1FAAD0882796548900CBEC01 /* MarsRoverImagesNetwork.swift in Sources */,
+				1FAAD08F2796631000CBEC01 /* Binding+Extensions.swift in Sources */,
+				1FAAD08D279658E400CBEC01 /* Photo.swift in Sources */,
+				1FAAD0722796349E00CBEC01 /* ImageDetailsView.swift in Sources */,
+				1FAAD07E279638B300CBEC01 /* TextButton.swift in Sources */,
+				1FAAD0662796339400CBEC01 /* BaseViewModel.swift in Sources */,
+				1FAAD08527964F5A00CBEC01 /* View+Extensions.swift in Sources */,
+				1FAAD068279633B400CBEC01 /* HomeViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAAD03F279631C100CBEC01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAAD0742796365500CBEC01 /* HomeViewModelTests.swift in Sources */,
+				1FAAD0772796371900CBEC01 /* DayImagesViewModelTests.swift in Sources */,
+				1FAAD0792796374F00CBEC01 /* ImageDetailsViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAAD049279631C100CBEC01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAAD054279631C100CBEC01 /* QuipTakeHomeUITestsLaunchTests.swift in Sources */,
+				1FAAD052279631C100CBEC01 /* QuipTakeHomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FAAD045279631C100CBEC01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FAAD032279631BC00CBEC01 /* QuipTakeHome */;
+			targetProxy = 1FAAD044279631C100CBEC01 /* PBXContainerItemProxy */;
+		};
+		1FAAD04F279631C100CBEC01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FAAD032279631BC00CBEC01 /* QuipTakeHome */;
+			targetProxy = 1FAAD04E279631C100CBEC01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FAAD055279631C100CBEC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FAAD056279631C100CBEC01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FAAD058279631C100CBEC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuipTakeHome/Preview Content\"";
+				DEVELOPMENT_TEAM = M8V73H5F2L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffreyLosapio.QuipTakeHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FAAD059279631C100CBEC01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuipTakeHome/Preview Content\"";
+				DEVELOPMENT_TEAM = M8V73H5F2L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffreyLosapio.QuipTakeHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FAAD05B279631C100CBEC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8V73H5F2L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffreyLosapio..QuipTakeHome-JeffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuipTakeHome.app/QuipTakeHome";
+			};
+			name = Debug;
+		};
+		1FAAD05C279631C100CBEC01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8V73H5F2L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffreyLosapio..QuipTakeHome-JeffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuipTakeHome.app/QuipTakeHome";
+			};
+			name = Release;
+		};
+		1FAAD05E279631C100CBEC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8V73H5F2L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffreyLosapio..QuipTakeHome-JeffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QuipTakeHome-Jeff";
+			};
+			name = Debug;
+		};
+		1FAAD05F279631C100CBEC01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8V73H5F2L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffreyLosapio..QuipTakeHome-JeffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QuipTakeHome-Jeff";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FAAD02E279631BC00CBEC01 /* Build configuration list for PBXProject "QuipTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAAD055279631C100CBEC01 /* Debug */,
+				1FAAD056279631C100CBEC01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAAD057279631C100CBEC01 /* Build configuration list for PBXNativeTarget "QuipTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAAD058279631C100CBEC01 /* Debug */,
+				1FAAD059279631C100CBEC01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAAD05A279631C100CBEC01 /* Build configuration list for PBXNativeTarget "QuipTakeHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAAD05B279631C100CBEC01 /* Debug */,
+				1FAAD05C279631C100CBEC01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAAD05D279631C100CBEC01 /* Build configuration list for PBXNativeTarget "QuipTakeHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAAD05E279631C100CBEC01 /* Debug */,
+				1FAAD05F279631C100CBEC01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FAAD02B279631BC00CBEC01 /* Project object */;
+}
