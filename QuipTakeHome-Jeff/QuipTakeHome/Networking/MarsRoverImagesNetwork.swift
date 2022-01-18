@@ -29,6 +29,16 @@ class MarsRoverImagesNetwork {
         guard let finalURL = components?.url else { return Combine.Fail(error: InternalError.URL).eraseToAnyPublisher() }
         let request = URLRequest(url: finalURL)
         
+        return photosDictWrapperResponse(request: request)
+            .map { dict -> [Photo] in
+                return dict["photos"] ?? []
+            }
+            .eraseToAnyPublisher()
+    }
+}
+
+extension MarsRoverImagesNetwork {
+    private static func photosDictWrapperResponse(request: URLRequest) -> AnyPublisher<[String: [Photo]], Error> {
         return APIClient.run(request)
             .map(\.value)
             .eraseToAnyPublisher()

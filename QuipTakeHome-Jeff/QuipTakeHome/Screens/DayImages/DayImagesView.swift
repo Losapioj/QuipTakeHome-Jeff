@@ -12,7 +12,14 @@ struct DayImagesView: View {
     
     var body: some View {
         ScrollView {
-            
+            LazyVGrid(columns: viewModel.gridItems, spacing: Constants.gridSpacing) {
+                Text("Hello, World!")
+                Text("Hello, World!")
+                Text("Hello, World!")
+                Text("Hello, World!")
+                Text("Hello, World!")
+                Text("Hello, World!")
+            }
         }
         .alert(isPresented: $viewModel.alert.isNullBinding()) {
             viewModel.alert ?? Alert(title: Text(""))

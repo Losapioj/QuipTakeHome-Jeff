@@ -10,7 +10,8 @@ import SwiftUI
 
 class DayImagesViewModel: BaseViewModel {
     var selectedDate: Date
-    var photos: [Photo] = []
+    @Published var gridItems: [GridItem] = []
+    var photoArray: [Photo] = []
     
     init(selectedDate: Date) {
         self.selectedDate = selectedDate
@@ -32,7 +33,7 @@ class DayImagesViewModel: BaseViewModel {
                     return
                 }
             }, receiveValue: { [weak self] photos in
-                self?.photos = photos
+                self?.photoArray = photos
             })
             .store(in: &cancellableSet)
     }
