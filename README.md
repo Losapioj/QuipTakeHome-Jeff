@@ -17,7 +17,7 @@ As there was a request to not spend more than ~2 hours, there are many improveme
 - A layer between `ViewModel` and `Network` objects could be implemented (I'll call them `Services` from here on)
   - A Service layer would make network changes in future simpler as they would only need to be updated in one place instead of every VM that implements the network call
   - A Service layer would make it easier to combine multiple network calls into one for a desired effect
-  - A Service layer would allow encapsulation of logic managing the interplay between local cold storage and network calls, making intelligently deciding when network calls are needed easier
+  - A Service layer would allow encapsulation of logic managing the interplay between future local storage and network calls, making intelligently deciding when network calls are needed easier
 - Using `AsyncImage` objects provided in iOS 15 allows for very simple image retrieval, as the UI object its self does the call to get the image from the URL
   - The negative of this is there is no image caching currently. Ideally the photo object would store the retrieved image and decide to use an async or sync image based on the image being pre-retrieved
 - There is currently no paging available, allowing for only the first 25 images within a day to be displayed
