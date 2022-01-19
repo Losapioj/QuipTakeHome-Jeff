@@ -24,3 +24,5 @@ As there was a request to not spend more than ~2 hours, there are many improveme
   - According to the API documentation, this should result in only the first 25 images being loaded
     - This can be seen as not true by selecting `Jan 19, 2014` where well over 50 images are returned
     - As a result, in a normal project I would contact the API provider and ask for updated documentation to understand what is needed and what is actually provided when no page is defined in the API call before implementing paging
+- Testing currently is limited to the home screen button, and one test to show initialization within the `DayPhotosViewModelTests` file to show handling an init that requires inputs
+  - To expedite submission, testing is not comprehensive, but instead was built out to give examples of my preferred testing structure.
