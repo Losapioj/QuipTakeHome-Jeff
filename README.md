@@ -20,5 +20,7 @@ As there was a request to not spend more than ~2 hours, there are many improveme
   - A Service layer would allow encapsulation of logic managing the interplay between future local storage and network calls, making intelligently deciding when network calls are needed easier
 - Using `AsyncImage` objects provided in iOS 15 allows for very simple image retrieval, as the UI object its self does the call to get the image from the URL
   - The negative of this is there is no image caching currently. Ideally the photo object would store the retrieved image and decide to use an async or sync image based on the image being pre-retrieved
-- There is currently no paging available, allowing for only the first 25 images within a day to be displayed
-  - This is again due to trying to remain within a reasonable amount of time given the constraints laid out before me.
+- There is currently no paging implemented.
+  - According to the API documentation, this should result in only the first 25 images being loaded
+    - This can be seen as not true by selecting `Jan 19, 2014` where well over 50 images are returned
+    - As a result, in a normal project I would contact the API provider and ask for updated documentation to understand what is needed and what is actually provided when no page is defined in the API call before implementing paging
