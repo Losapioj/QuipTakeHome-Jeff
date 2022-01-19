@@ -9,6 +9,7 @@ import Foundation
 
 class PhotoDetailsViewModel: BaseViewModel {
     let photoURL: URL?
+    let earthDate: String
     
     let roverName: String
     let roverLandingDate: String
@@ -20,6 +21,7 @@ class PhotoDetailsViewModel: BaseViewModel {
     
     init(_ photo: Photo) {
         photoURL = URL(string: photo.imageURL)
+        earthDate = photo.earthDate
         
         let rover = photo.rover
         roverName = rover.name

@@ -12,6 +12,9 @@ struct PhotoDetailsView: View {
     
     var body: some View {
         VStack(spacing: Constants.defaultSpacing) {
+            Text(viewModel.earthDate)
+                .font(.title2)
+            
             AsyncImage(url: viewModel.photoURL) { image in
                 image
                     .resizable()

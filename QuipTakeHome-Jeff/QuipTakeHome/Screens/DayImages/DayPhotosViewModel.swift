@@ -34,6 +34,13 @@ class DayPhotosViewModel: BaseViewModel {
                     return
                 }
             }, receiveValue: { [weak self] photos in
+                if photos.count == 0 {
+                    self?.alert = Alert(
+                        title: Text("No Photos Available"),
+                        message: Text("Please go back and select a new date"),
+                        dismissButton: Alert.Button.default(Text("okay"))
+                    )
+                }
                 self?.photoArray = photos
             })
             .store(in: &cancellableSet)
