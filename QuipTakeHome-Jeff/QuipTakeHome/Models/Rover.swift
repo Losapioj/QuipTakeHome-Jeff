@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Rover: Codable, Identifiable {
+struct Rover: Codable, Identifiable, Equatable {
     var id: Int
     var name: String
     var landingDate: String

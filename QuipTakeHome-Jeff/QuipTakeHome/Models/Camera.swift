@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Camera: Codable, Identifiable {
+struct Camera: Codable, Identifiable, Equatable {
     var id: Int
     var name: String
     var abbreviation: String

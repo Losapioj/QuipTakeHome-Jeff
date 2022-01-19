@@ -8,30 +8,59 @@
 import XCTest
 @testable import QuipTakeHome
 
-class HomeViewModelTests: XCTestCase {
+class HomeViewModelTests: BaseTestCase {
     var subject: HomeViewModel!
 
     override func setUpWithError() throws {
         subject = HomeViewModel()
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func test_onInit_ButtonIsDisabled() {
+        XCTAssertEqual(subject.isButtonActive, false)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    
+    func test_ifDateIsChangedToBeforeToday_thenButtonIsEnabled() {
+        let expectedResult = true
+        var result: Bool?
+        let disposable = subject.$isButtonActive.sink { isActive in
+            result = isActive
+            self.hasLatestValueEmitted = true
         }
+        
+        hasLatestValueEmitted = false
+        
+        let date = Date(timeIntervalSince1970: 0)
+        subject.selectedDate = date
+        
+        expectToEventually(hasLatestValueEmitted)
+        
+        XCTAssertEqual(result, expectedResult)
+        XCTAssertNotNil(disposable)
+    }
+    
+    func test_ifDateIsChangedToAfterToday_thenButtonIsDisabled() {
+        let expectedResult = false
+        var result: Bool?
+        let disposable = subject.$isButtonActive.sink { isActive in
+            result = isActive
+            self.hasLatestValueEmitted = true
+        }
+        
+        hasLatestValueEmitted = false
+        
+        let dateBeforeNow = Date(timeIntervalSince1970: 0)
+        subject.selectedDate = dateBeforeNow
+        
+        expectToEventually(hasLatestValueEmitted)
+        hasLatestValueEmitted = false
+        
+        let dateAfterNow = Date(timeIntervalSinceNow: 1000000)
+        subject.selectedDate = dateAfterNow
+        
+        expectToEventually(hasLatestValueEmitted)
+        
+        XCTAssertEqual(result, expectedResult)
+        XCTAssertNotNil(disposable)
     }
 
 }

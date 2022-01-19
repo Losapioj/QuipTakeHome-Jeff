@@ -35,6 +35,8 @@
 		1FAAD09B2797A69A00CBEC01 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD09A2797A69A00CBEC01 /* Camera.swift */; };
 		1FAAD09D2797A7DD00CBEC01 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD09C2797A7DD00CBEC01 /* Rover.swift */; };
 		1FAAD09F2797AFA000CBEC01 /* LabelWithInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD09E2797AFA000CBEC01 /* LabelWithInfo.swift */; };
+		1FAAD0A22798866000CBEC01 /* XCTest+Expect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0A12798866000CBEC01 /* XCTest+Expect.swift */; };
+		1FAAD0A4279889ED00CBEC01 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0A3279889ED00CBEC01 /* BaseTestCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		1FAAD09A2797A69A00CBEC01 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		1FAAD09C2797A7DD00CBEC01 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
 		1FAAD09E2797AFA000CBEC01 /* LabelWithInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelWithInfo.swift; sourceTree = "<group>"; };
+		1FAAD0A12798866000CBEC01 /* XCTest+Expect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTest+Expect.swift"; sourceTree = "<group>"; };
+		1FAAD0A3279889ED00CBEC01 /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,7 +166,9 @@
 		1FAAD046279631C100CBEC01 /* QuipTakeHomeTests */ = {
 			isa = PBXGroup;
 			children = (
+				1FAAD0A02798864700CBEC01 /* Extensions */,
 				1FAAD075279636DD00CBEC01 /* Screens */,
+				1FAAD0A3279889ED00CBEC01 /* BaseTestCase.swift */,
 			);
 			path = QuipTakeHomeTests;
 			sourceTree = "<group>";
@@ -278,6 +284,14 @@
 				1FAAD0972797854300CBEC01 /* PhotoListItemView.swift */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		1FAAD0A02798864700CBEC01 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1FAAD0A12798866000CBEC01 /* XCTest+Expect.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -439,6 +453,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FAAD0742796365500CBEC01 /* HomeViewModelTests.swift in Sources */,
+				1FAAD0A22798866000CBEC01 /* XCTest+Expect.swift in Sources */,
+				1FAAD0A4279889ED00CBEC01 /* BaseTestCase.swift in Sources */,
 				1FAAD0772796371900CBEC01 /* DayImagesViewModelTests.swift in Sources */,
 				1FAAD0792796374F00CBEC01 /* ImageDetailsViewModelTests.swift in Sources */,
 			);
