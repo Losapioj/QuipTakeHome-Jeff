@@ -14,11 +14,11 @@
 		1FAAD054279631C100CBEC01 /* QuipTakeHomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD053279631C100CBEC01 /* QuipTakeHomeUITestsLaunchTests.swift */; };
 		1FAAD0662796339400CBEC01 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0652796339400CBEC01 /* BaseViewModel.swift */; };
 		1FAAD068279633B400CBEC01 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD067279633B400CBEC01 /* HomeViewModel.swift */; };
-		1FAAD06A279633D200CBEC01 /* DayImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD069279633D200CBEC01 /* DayImagesViewModel.swift */; };
-		1FAAD06C279633ED00CBEC01 /* ImageDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD06B279633ED00CBEC01 /* ImageDetailsViewModel.swift */; };
+		1FAAD06A279633D200CBEC01 /* DayPhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD069279633D200CBEC01 /* DayPhotosViewModel.swift */; };
+		1FAAD06C279633ED00CBEC01 /* PhotoDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD06B279633ED00CBEC01 /* PhotoDetailsViewModel.swift */; };
 		1FAAD06E2796346E00CBEC01 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD06D2796346E00CBEC01 /* HomeView.swift */; };
-		1FAAD0702796348B00CBEC01 /* DayImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD06F2796348B00CBEC01 /* DayImagesView.swift */; };
-		1FAAD0722796349E00CBEC01 /* ImageDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0712796349E00CBEC01 /* ImageDetailsView.swift */; };
+		1FAAD0702796348B00CBEC01 /* DayPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD06F2796348B00CBEC01 /* DayPhotosView.swift */; };
+		1FAAD0722796349E00CBEC01 /* PhotoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0712796349E00CBEC01 /* PhotoDetailsView.swift */; };
 		1FAAD0742796365500CBEC01 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0732796365500CBEC01 /* HomeViewModelTests.swift */; };
 		1FAAD0772796371900CBEC01 /* DayImagesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0762796371900CBEC01 /* DayImagesViewModelTests.swift */; };
 		1FAAD0792796374F00CBEC01 /* ImageDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0782796374F00CBEC01 /* ImageDetailsViewModelTests.swift */; };
@@ -30,6 +30,11 @@
 		1FAAD08A279656C400CBEC01 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD089279656C400CBEC01 /* APIClient.swift */; };
 		1FAAD08D279658E400CBEC01 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD08C279658E400CBEC01 /* Photo.swift */; };
 		1FAAD08F2796631000CBEC01 /* Binding+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD08E2796631000CBEC01 /* Binding+Extensions.swift */; };
+		1FAAD0962797853A00CBEC01 /* PhotoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0952797853A00CBEC01 /* PhotoListView.swift */; };
+		1FAAD0982797854300CBEC01 /* PhotoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0972797854300CBEC01 /* PhotoListItemView.swift */; };
+		1FAAD09B2797A69A00CBEC01 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD09A2797A69A00CBEC01 /* Camera.swift */; };
+		1FAAD09D2797A7DD00CBEC01 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD09C2797A7DD00CBEC01 /* Rover.swift */; };
+		1FAAD09F2797AFA000CBEC01 /* LabelWithInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD09E2797AFA000CBEC01 /* LabelWithInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,11 +65,11 @@
 		1FAAD053279631C100CBEC01 /* QuipTakeHomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuipTakeHomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1FAAD0652796339400CBEC01 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		1FAAD067279633B400CBEC01 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		1FAAD069279633D200CBEC01 /* DayImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayImagesViewModel.swift; sourceTree = "<group>"; };
-		1FAAD06B279633ED00CBEC01 /* ImageDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailsViewModel.swift; sourceTree = "<group>"; };
+		1FAAD069279633D200CBEC01 /* DayPhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPhotosViewModel.swift; sourceTree = "<group>"; };
+		1FAAD06B279633ED00CBEC01 /* PhotoDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewModel.swift; sourceTree = "<group>"; };
 		1FAAD06D2796346E00CBEC01 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		1FAAD06F2796348B00CBEC01 /* DayImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayImagesView.swift; sourceTree = "<group>"; };
-		1FAAD0712796349E00CBEC01 /* ImageDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailsView.swift; sourceTree = "<group>"; };
+		1FAAD06F2796348B00CBEC01 /* DayPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPhotosView.swift; sourceTree = "<group>"; };
+		1FAAD0712796349E00CBEC01 /* PhotoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsView.swift; sourceTree = "<group>"; };
 		1FAAD0732796365500CBEC01 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
 		1FAAD0762796371900CBEC01 /* DayImagesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayImagesViewModelTests.swift; sourceTree = "<group>"; };
 		1FAAD0782796374F00CBEC01 /* ImageDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailsViewModelTests.swift; sourceTree = "<group>"; };
@@ -76,6 +81,12 @@
 		1FAAD089279656C400CBEC01 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		1FAAD08C279658E400CBEC01 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		1FAAD08E2796631000CBEC01 /* Binding+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extensions.swift"; sourceTree = "<group>"; };
+		1FAAD0952797853A00CBEC01 /* PhotoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListView.swift; sourceTree = "<group>"; };
+		1FAAD0972797854300CBEC01 /* PhotoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListItemView.swift; sourceTree = "<group>"; };
+		1FAAD0992797986A00CBEC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1FAAD09A2797A69A00CBEC01 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		1FAAD09C2797A7DD00CBEC01 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
+		1FAAD09E2797AFA000CBEC01 /* LabelWithInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelWithInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,14 +137,15 @@
 		1FAAD035279631BC00CBEC01 /* QuipTakeHome */ = {
 			isa = PBXGroup;
 			children = (
-				1FAAD08B279658D200CBEC01 /* Models */,
-				1FAAD07F27963C2800CBEC01 /* SupportingFiles */,
+				1FAAD0992797986A00CBEC01 /* Info.plist */,
 				1FAAD0642796337300CBEC01 /* BaseClasses */,
 				1FAAD07A2796387A00CBEC01 /* Components */,
+				1FAAD08B279658D200CBEC01 /* Models */,
 				1FAAD0862796546900CBEC01 /* Networking */,
 				1FAAD0602796330400CBEC01 /* Screens */,
 				1FAAD036279631BC00CBEC01 /* QuipTakeHomeApp.swift */,
 				1FAAD03A279631C100CBEC01 /* Assets.xcassets */,
+				1FAAD07F27963C2800CBEC01 /* SupportingFiles */,
 				1FAAD03C279631C100CBEC01 /* Preview Content */,
 			);
 			path = QuipTakeHome;
@@ -186,8 +198,9 @@
 		1FAAD0622796335900CBEC01 /* DayImages */ = {
 			isa = PBXGroup;
 			children = (
-				1FAAD069279633D200CBEC01 /* DayImagesViewModel.swift */,
-				1FAAD06F2796348B00CBEC01 /* DayImagesView.swift */,
+				1FAAD090279784DC00CBEC01 /* List */,
+				1FAAD069279633D200CBEC01 /* DayPhotosViewModel.swift */,
+				1FAAD06F2796348B00CBEC01 /* DayPhotosView.swift */,
 			);
 			path = DayImages;
 			sourceTree = "<group>";
@@ -195,8 +208,8 @@
 		1FAAD0632796336800CBEC01 /* ImageDetails */ = {
 			isa = PBXGroup;
 			children = (
-				1FAAD06B279633ED00CBEC01 /* ImageDetailsViewModel.swift */,
-				1FAAD0712796349E00CBEC01 /* ImageDetailsView.swift */,
+				1FAAD06B279633ED00CBEC01 /* PhotoDetailsViewModel.swift */,
+				1FAAD0712796349E00CBEC01 /* PhotoDetailsView.swift */,
 			);
 			path = ImageDetails;
 			sourceTree = "<group>";
@@ -223,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				1FAAD07D279638B300CBEC01 /* TextButton.swift */,
+				1FAAD09E2797AFA000CBEC01 /* LabelWithInfo.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -251,8 +265,19 @@
 			isa = PBXGroup;
 			children = (
 				1FAAD08C279658E400CBEC01 /* Photo.swift */,
+				1FAAD09A2797A69A00CBEC01 /* Camera.swift */,
+				1FAAD09C2797A7DD00CBEC01 /* Rover.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		1FAAD090279784DC00CBEC01 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				1FAAD0952797853A00CBEC01 /* PhotoListView.swift */,
+				1FAAD0972797854300CBEC01 /* PhotoListItemView.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,20 +410,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FAAD09D2797A7DD00CBEC01 /* Rover.swift in Sources */,
 				1FAAD06E2796346E00CBEC01 /* HomeView.swift in Sources */,
 				1FAAD08A279656C400CBEC01 /* APIClient.swift in Sources */,
 				1FAAD08327963EB600CBEC01 /* Constants.swift in Sources */,
 				1FAAD08127963C3E00CBEC01 /* Colors.swift in Sources */,
-				1FAAD06C279633ED00CBEC01 /* ImageDetailsViewModel.swift in Sources */,
+				1FAAD06C279633ED00CBEC01 /* PhotoDetailsViewModel.swift in Sources */,
 				1FAAD037279631BC00CBEC01 /* QuipTakeHomeApp.swift in Sources */,
-				1FAAD06A279633D200CBEC01 /* DayImagesViewModel.swift in Sources */,
-				1FAAD0702796348B00CBEC01 /* DayImagesView.swift in Sources */,
+				1FAAD0982797854300CBEC01 /* PhotoListItemView.swift in Sources */,
+				1FAAD06A279633D200CBEC01 /* DayPhotosViewModel.swift in Sources */,
+				1FAAD0702796348B00CBEC01 /* DayPhotosView.swift in Sources */,
 				1FAAD0882796548900CBEC01 /* MarsRoverImagesNetwork.swift in Sources */,
 				1FAAD08F2796631000CBEC01 /* Binding+Extensions.swift in Sources */,
 				1FAAD08D279658E400CBEC01 /* Photo.swift in Sources */,
-				1FAAD0722796349E00CBEC01 /* ImageDetailsView.swift in Sources */,
+				1FAAD09B2797A69A00CBEC01 /* Camera.swift in Sources */,
+				1FAAD09F2797AFA000CBEC01 /* LabelWithInfo.swift in Sources */,
+				1FAAD0722796349E00CBEC01 /* PhotoDetailsView.swift in Sources */,
 				1FAAD07E279638B300CBEC01 /* TextButton.swift in Sources */,
 				1FAAD0662796339400CBEC01 /* BaseViewModel.swift in Sources */,
+				1FAAD0962797853A00CBEC01 /* PhotoListView.swift in Sources */,
 				1FAAD08527964F5A00CBEC01 /* View+Extensions.swift in Sources */,
 				1FAAD068279633B400CBEC01 /* HomeViewModel.swift in Sources */,
 			);
@@ -566,12 +596,13 @@
 				DEVELOPMENT_TEAM = M8V73H5F2L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuipTakeHome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -596,12 +627,13 @@
 				DEVELOPMENT_TEAM = M8V73H5F2L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuipTakeHome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

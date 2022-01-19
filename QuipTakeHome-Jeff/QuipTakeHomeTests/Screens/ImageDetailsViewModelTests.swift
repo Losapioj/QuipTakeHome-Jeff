@@ -9,10 +9,10 @@ import XCTest
 @testable import QuipTakeHome
 
 class ImageDetailsViewModelTests: XCTestCase {
-    var subject: ImageDetailsViewModel!
+    var subject: PhotoDetailsViewModel!
 
     override func setUpWithError() throws {
-        subject = ImageDetailsViewModel()
+        subject = PhotoDetailsViewModel()
     }
 
     override func tearDownWithError() throws {

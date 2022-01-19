@@ -10,7 +10,7 @@ import Foundation
 
 struct Constants {
     static let buttonCornerRadius: CGFloat = 16.0
-    static let gridSpacing: CGFloat = 8
+    static let defaultSpacing: CGFloat = 8
     
     struct Network {
         static let apiKey: String = "QppYU9y3lifyINNdMOP9hIA83VetiKjjk91IFgDl"

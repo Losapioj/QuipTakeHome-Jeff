@@ -1,5 +1,5 @@
 //
-//  DayImagesViewModel.swift
+//  DayPhotosViewModel.swift
 //  QuipTakeHome
 //
 //  Created by JEFFREY LOSAPIO on 1/17/22.
@@ -8,13 +8,14 @@
 import Foundation
 import SwiftUI
 
-class DayImagesViewModel: BaseViewModel {
+class DayPhotosViewModel: BaseViewModel {
     var selectedDate: Date
-    @Published var gridItems: [GridItem] = []
-    var photoArray: [Photo] = []
+    @Published var gridItems: [GridItem]
+    @Published var photoArray: [Photo] = []
     
     init(selectedDate: Date) {
         self.selectedDate = selectedDate
+        self.gridItems = [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())]
         
         super.init()
         
@@ -36,5 +37,10 @@ class DayImagesViewModel: BaseViewModel {
                 self?.photoArray = photos
             })
             .store(in: &cancellableSet)
+    }
+    
+    func photoClicked(photo: Photo) {
+        let vm = PhotoDetailsViewModel(photo)
+        self.nextView = PhotoDetailsView(viewModel: vm).erasedToAnyView()
     }
 }

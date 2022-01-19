@@ -29,7 +29,7 @@ struct HomeView: View {
                 Spacer()
                 
                 TextButton(
-                    title: "Click Me",
+                    title: "Search For Curiosity Images",
                     isEnabled: $viewModel.isButtonActive
                 ) {
                     viewModel.goToSelectedDateImagesView()

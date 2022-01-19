@@ -12,8 +12,6 @@ import SwiftUI
 class HomeViewModel: BaseViewModel {
     @Published var selectedDate: Date
     @Published var isButtonActive: Bool = false
-    @Published var nextView: AnyView? = nil
-    @Published var isReadyForNavigation: Bool = false
     
     override init() {
         selectedDate = Date()
@@ -34,8 +32,7 @@ class HomeViewModel: BaseViewModel {
     }
     
     func goToSelectedDateImagesView() {
-        let vm = DayImagesViewModel(selectedDate: selectedDate)
-        nextView = DayImagesView(viewModel: vm).erasedToAnyView()
-        isReadyForNavigation = true
+        let vm = DayPhotosViewModel(selectedDate: selectedDate)
+        nextView = DayPhotosView(viewModel: vm).erasedToAnyView()
     }
 }
