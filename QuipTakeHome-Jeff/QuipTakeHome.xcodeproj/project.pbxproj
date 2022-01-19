@@ -20,8 +20,8 @@
 		1FAAD0702796348B00CBEC01 /* DayPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD06F2796348B00CBEC01 /* DayPhotosView.swift */; };
 		1FAAD0722796349E00CBEC01 /* PhotoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0712796349E00CBEC01 /* PhotoDetailsView.swift */; };
 		1FAAD0742796365500CBEC01 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0732796365500CBEC01 /* HomeViewModelTests.swift */; };
-		1FAAD0772796371900CBEC01 /* DayImagesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0762796371900CBEC01 /* DayImagesViewModelTests.swift */; };
-		1FAAD0792796374F00CBEC01 /* ImageDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0782796374F00CBEC01 /* ImageDetailsViewModelTests.swift */; };
+		1FAAD0772796371900CBEC01 /* DayPhotosViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0762796371900CBEC01 /* DayPhotosViewModelTests.swift */; };
+		1FAAD0792796374F00CBEC01 /* PhotoDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD0782796374F00CBEC01 /* PhotoDetailsViewModelTests.swift */; };
 		1FAAD07E279638B300CBEC01 /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD07D279638B300CBEC01 /* TextButton.swift */; };
 		1FAAD08127963C3E00CBEC01 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD08027963C3E00CBEC01 /* Colors.swift */; };
 		1FAAD08327963EB600CBEC01 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAD08227963EB600CBEC01 /* Constants.swift */; };
@@ -73,8 +73,8 @@
 		1FAAD06F2796348B00CBEC01 /* DayPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPhotosView.swift; sourceTree = "<group>"; };
 		1FAAD0712796349E00CBEC01 /* PhotoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsView.swift; sourceTree = "<group>"; };
 		1FAAD0732796365500CBEC01 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
-		1FAAD0762796371900CBEC01 /* DayImagesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayImagesViewModelTests.swift; sourceTree = "<group>"; };
-		1FAAD0782796374F00CBEC01 /* ImageDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailsViewModelTests.swift; sourceTree = "<group>"; };
+		1FAAD0762796371900CBEC01 /* DayPhotosViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPhotosViewModelTests.swift; sourceTree = "<group>"; };
+		1FAAD0782796374F00CBEC01 /* PhotoDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewModelTests.swift; sourceTree = "<group>"; };
 		1FAAD07D279638B300CBEC01 /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
 		1FAAD08027963C3E00CBEC01 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		1FAAD08227963EB600CBEC01 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -232,8 +232,8 @@
 			isa = PBXGroup;
 			children = (
 				1FAAD0732796365500CBEC01 /* HomeViewModelTests.swift */,
-				1FAAD0762796371900CBEC01 /* DayImagesViewModelTests.swift */,
-				1FAAD0782796374F00CBEC01 /* ImageDetailsViewModelTests.swift */,
+				1FAAD0762796371900CBEC01 /* DayPhotosViewModelTests.swift */,
+				1FAAD0782796374F00CBEC01 /* PhotoDetailsViewModelTests.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -455,8 +455,8 @@
 				1FAAD0742796365500CBEC01 /* HomeViewModelTests.swift in Sources */,
 				1FAAD0A22798866000CBEC01 /* XCTest+Expect.swift in Sources */,
 				1FAAD0A4279889ED00CBEC01 /* BaseTestCase.swift in Sources */,
-				1FAAD0772796371900CBEC01 /* DayImagesViewModelTests.swift in Sources */,
-				1FAAD0792796374F00CBEC01 /* ImageDetailsViewModelTests.swift in Sources */,
+				1FAAD0772796371900CBEC01 /* DayPhotosViewModelTests.swift in Sources */,
+				1FAAD0792796374F00CBEC01 /* PhotoDetailsViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  DayImagesViewModelTests.swift
+//  DayPhotosViewModelTests.swift
 //  QuipTakeHomeTests
 //
 //  Created by JEFFREY LOSAPIO on 1/17/22.
@@ -8,7 +8,7 @@
 import XCTest
 @testable import QuipTakeHome
 
-class DayImagesViewModelTests: BaseTestCase {
+class DayPhotosViewModelTests: BaseTestCase {
     var selectedDate: Date!
     var subject: DayPhotosViewModel!
 

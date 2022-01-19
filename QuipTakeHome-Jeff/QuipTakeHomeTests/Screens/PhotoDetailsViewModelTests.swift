@@ -1,5 +1,5 @@
 //
-//  ImageDetailsViewModelTests.swift
+//  PhotoDetailsViewModelTests.swift
 //  QuipTakeHomeTests
 //
 //  Created by JEFFREY LOSAPIO on 1/17/22.
@@ -8,7 +8,7 @@
 import XCTest
 @testable import QuipTakeHome
 
-class ImageDetailsViewModelTests: BaseTestCase {
+class PhotoDetailsViewModelTests: BaseTestCase {
     var subject: PhotoDetailsViewModel!
 
     override func setUpWithError() throws {
